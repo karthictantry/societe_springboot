@@ -21,7 +21,6 @@ public class EmployeeRegistrationController {
 	
 	@GetMapping(path = "employees", produces = "application/json")
 	public List<Employee> getEmployees() {
-		System.out.print("In Get");
 		return employeeList;
 	}
 	
